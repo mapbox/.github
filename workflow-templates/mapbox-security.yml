@@ -1,4 +1,4 @@
-name: 'MBX Dependency Review'
+name: 'MBX Security'
 
 on: [pull_request]
 
@@ -8,5 +8,5 @@ permissions:
 
 jobs:
     dependency-review:
-      name: 'Review'
+      name: 'Dependency Review'
       uses: mapbox/.github-private/.github/workflows/dependency-review.yml@main
