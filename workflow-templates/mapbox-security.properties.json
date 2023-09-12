@@ -1,0 +1,6 @@
+{
+  "name": "Mapbox Security Checks",
+  "description": "Required Security Checks for Mapbox Repositories",
+  "iconName": "shield",
+  "categories": ["dependency-management", "codereview", "utilities"]
+}

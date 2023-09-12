@@ -1,6 +1,0 @@
-{
-  "name": "Mapbox Dependency Review",
-  "description": "Dependency Review for the Mapbox Org",
-  "iconName": "octoicon package-dependencies",
-  "categories": ["dependency-management"]
-}
