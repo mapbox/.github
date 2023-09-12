@@ -8,4 +8,4 @@ permissions:
 
 jobs:
     dependency-review:
-      uses: mapbox/.github-private/.github/workflows/dependency-review.yml
+      uses: mapbox/.github-private/.github/workflows/dependency-review.yml@main
