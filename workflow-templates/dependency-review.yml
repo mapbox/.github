@@ -1,22 +1,23 @@
 name: 'Dependency Review'
+
 on: [pull_request]
 
 permissions:
-   contents: read
-   pull-requests: write # this is to enable PR comments
+  contents: read
+  pull-requests: write # this is to enable PR comments
 
 jobs:
-   dependency-review:
-runs-on: ubuntu-latest
-	steps:
-	- name: 'Checkout Repository'
-	  uses: action/checkout@v3
-	- name: 'Dependency Review'
-	  uses: actions/dependency-review-action@v3
-	  with:
-	    # PR comments generated only on failure
-	    comment-summary-in-pr: on-failure
-	    # this means failure only on runtime scope
-	    fail-on-scopes: runtime
-	    # this means failure on severity = high or greater
-           fail-on-severity: high
+    dependency-review:
+      runs-on: ubuntu-latest
+        steps:
+        - name: 'Checkout Repository'
+          uses: action/checkout@v3
+        - name: 'Dependency Review'
+          uses: actions/dependency-review-action@v3
+          with:
+            # PR comments generated only on failure
+            comment-summary-in-pr: on-failure
+            # this means failure only on runtime scope
+            fail-on-scopes: runtime
+            # this means failure on severity = high or greater
+            fail-on-severity: high
