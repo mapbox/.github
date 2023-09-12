@@ -8,16 +8,4 @@ permissions:
 
 jobs:
     dependency-review:
-      runs-on: ubuntu-latest
-        steps:
-        - name: 'Checkout Repository'
-          uses: action/checkout@v3
-        - name: 'Dependency Review'
-          uses: actions/dependency-review-action@v3
-          with:
-            # PR comments generated only on failure
-            comment-summary-in-pr: on-failure
-            # this means failure only on runtime scope
-            fail-on-scopes: runtime
-            # this means failure on severity = high or greater
-            fail-on-severity: high
+      uses: mapbox/.github-private/.github/workflows/dependency-review.yml
