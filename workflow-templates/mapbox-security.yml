@@ -5,6 +5,17 @@ on: [pull_request]
 permissions:
   contents: read
   pull-requests: write # this is to enable PR comments
+  actions: read 
+  checks: read 
+  deployments: read
+  discussions: read 
+  issues: read 
+  packages: read
+  pages: read
+  repository-projects: read
+  statuses: read 
+  security-events: read 
+
 
 jobs:
     main:
