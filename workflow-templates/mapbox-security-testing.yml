@@ -9,12 +9,12 @@ permissions:
   checks: read 
   deployments: read
   discussions: read 
-  issues: read 
+  issues: write 
   packages: read
   pages: read
   repository-projects: read
   statuses: read 
-  security-events: read
+  security-events: write
   id-token: read
 
 
