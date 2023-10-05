@@ -3,21 +3,22 @@ name: 'MBX Security'
 on: [pull_request]
 
 permissions:
+  actions: read
+  checks: write
   contents: read
-  pull-requests: write # this is to enable PR comments
-  actions: read 
-  checks: read 
   deployments: read
-  discussions: read 
-  issues: write 
+  id-token: write
+  issues: write
+  discussions: read
   packages: read
   pages: read
+  pull-requests: write
   repository-projects: read
-  statuses: read 
   security-events: write
-  id-token: write
+  statuses: read
 
 jobs:
     main:
       name: 'Main'
       uses: mapbox/.github-private/.github/workflows/main-testing.yml@main
+      secrets: inherit
