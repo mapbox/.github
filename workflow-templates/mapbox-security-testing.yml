@@ -4,7 +4,7 @@ on: [pull_request]
 
 permissions:
   actions: read
-  checks: write
+  checks: read
   contents: read
   deployments: read
   id-token: write
@@ -18,7 +18,7 @@ permissions:
   statuses: read
 
 jobs:
-    main:
-      name: 'Main'
-      uses: mapbox/.github-private/.github/workflows/main-testing.yml@main
-      secrets: inherit
+  main:
+    name: 'Main'
+    uses: mapbox/.github-private/.github/workflows/main-testing.yml@main
+    secrets: inherit
