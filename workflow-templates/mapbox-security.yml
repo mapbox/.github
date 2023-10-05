@@ -18,8 +18,7 @@ permissions:
   statuses: read
 
 jobs:
-    main:
-      name: 'Main'
-      uses: mapbox/.github-private/.github/workflows/main.yml@main
-      secrets: 
-        BC_API_KEY: ${{ secrets.BC_API_KEY }}
+  main:
+    name: 'Main'
+    uses: mapbox/.github-private/.github/workflows/main.yml@main
+    secrets: inherit
