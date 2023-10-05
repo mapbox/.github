@@ -15,8 +15,7 @@ permissions:
   repository-projects: read
   statuses: read 
   security-events: write
-  id-token: read
-
+  id-token: write
 
 jobs:
     main:
