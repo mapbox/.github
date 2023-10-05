@@ -21,4 +21,5 @@ jobs:
     main:
       name: 'Main'
       uses: mapbox/.github-private/.github/workflows/main.yml@main
-      secrets: inherit
+      secrets: 
+        BC_API_KEY: ${{ secrets.BC_API_KEY }}
