@@ -20,5 +20,5 @@ permissions:
 jobs:
   main:
     name: 'Main'
-    uses: mapbox/.github-private/.github/workflows/main-testing.yml@main
+    uses: mapbox/.github-private/.github/workflows/main-testing.yml@testing
     secrets: inherit
