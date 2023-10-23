@@ -21,16 +21,14 @@ The governance framework aims to:
 
 ## Decision-Making
 
-### Maintainers
-
 Mapbox personnel are entrusted with the stewardship of Mapbox Open Source projects. Their role encompasses decision-making regarding the project's trajectory and overall direction.
 
 ## Conflict Resolution
 
-Maintainers are the go-to for conflict resolution within the Mapbox Open Source community. In case of discord, they will collaborate with the concerned parties to iron out issues. Should a resolution remain elusive, the final verdict rests with the maintainers for the project or members of the Mapbox organization.
+Maintainers are responsible for resolving conflicts within the Mapbox Open Source community. If a conflict arises, the Mapbox Representatives will work with the individuals and organizations involved to resolve the conflict. If the conflict cannot be resolved, the Mapbox Representatives will make a decision about the conflict. This decision is final.
 
 ## Community Engagement
 
-We extend a warm welcome to contributions from all quarters, individuals and organizations alike. Contributions could include code, documentation, bug reports, feature suggestions, or any other valuable input as deemed suitable by Mapbox Open Source project maintainers.
+The Mapbox Open Source community welcomes contributions from all individuals and organizations. Contributions may be made in the form of code, documentation, bug reports, feature requests, or any other form of contribution that is deemed appropriate by the company.
 
 To learn more about contributing to Mapbox Open Source projects, we invite you to peruse the Contributing Guidelines pertinent to the project of interest.
