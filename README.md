@@ -1,9 +1,12 @@
 # .github
 
-This repository contains the workflows that are published for use by the Mapbox Organization in GitHub Enterprise Cloud.  
-
-This repository is public, but the workflows are private. Do not commit any confidential information or secrets to this repository.  
+This is the default repository for [Mapbox](https://www.mapbox.com). It contains the default community health files for all Mapbox repositories.
 
 ## Contributing
 
-For more information about contributing to this repository, see [CONTRIBUTING](https://github.com/mapbox/.github-private/blob/main/CONTRIBUTING.md) in the [`.github-private`](https://github.com/mapbox/.github-private) repository.
+* Contributions to Mapbox Open Source projects are welcome and encouraged! Please see the Contribution Guidelines for the specific project in question for more information on contributing.
+* This repository does not accept PRs or Issues from outside the Mapbox organization.
+
+## Support
+
+If you are a Mapbox customer and need support, you can visit our Support Portal at [support.mapbox.com](https://support.mapbox.com/).
