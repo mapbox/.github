@@ -20,5 +20,5 @@ permissions:
 jobs:
   main:
     name: 'Main'
-    uses: mapbox/.github-private/.github/workflows/main.yml@main
+    uses: mapbox/.github-private/.github/workflows/security.yml@main
     secrets: inherit
