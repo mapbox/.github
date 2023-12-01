@@ -22,3 +22,5 @@ jobs:
     name: 'Main'
     uses: mapbox/.github-private/.github/workflows/security.yml@main
     secrets: inherit
+    with:
+      sha: ${{ github.sha }}
