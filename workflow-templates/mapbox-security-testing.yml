@@ -23,4 +23,4 @@ jobs:
     uses: mapbox/.github-private/.github/workflows/main-testing.yml@testing
     secrets: inherit
     with:
-      sha: ${{ github.sha }}
+      sha: ${{ github.event.pull_request.head.sha }}
