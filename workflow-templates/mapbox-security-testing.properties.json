@@ -1,6 +1,0 @@
-{
-  "name": "TESTING - Mapbox Security Checks",
-  "description": "This workflow is for testing by the S&C Team only.",
-  "iconName": "octicon shield",
-  "categories": ["dependency-management", "codereview", "utilities"]
-}
