@@ -1,0 +1,26 @@
+name: 'EOL Scanner'
+
+on: [pull_request]
+
+permissions:
+  actions: read
+  checks: write
+  contents: read
+  deployments: read
+  id-token: write
+  issues: write
+  discussions: read
+  packages: read
+  pages: read
+  pull-requests: write
+  repository-projects: read
+  security-events: write
+  statuses: write
+
+jobs:
+  main:
+    name: 'Main'
+    uses: mapbox/.github-private/.github/workflows/security_eol.yml@artifacts-scanner-2.0-eol
+    secrets: inherit
+    with:
+      sha: ${{ github.event.pull_request.head.sha }}
