@@ -20,7 +20,7 @@ permissions:
 jobs:
   main:
     name: 'Main'
-    uses: mapbox/.github-private/.github/workflows/security_eol.yml@artifacts-scanner-2.0-eol
+    uses: mapbox/.github-private/.github/workflows/artifacts-scanner.yml@main
     secrets: inherit
     with:
       sha: ${{ github.event.pull_request.head.sha }}
