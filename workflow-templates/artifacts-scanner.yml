@@ -1,4 +1,4 @@
-name: 'EOL Scanner'
+name: 'Artifacts Scanner'
 
 on: [pull_request]
 
