@@ -1,0 +1,6 @@
+{
+  "name": "Artifacts Scanner",
+  "description": "End of Life Security Check for Mapbox Repositories",
+  "iconName": "octicon pulse",
+  "categories": ["dependency-management", "monitoring", "codereview", "utilities"]
+}
