@@ -1,6 +1,0 @@
-{
-  "name": "Mapbox Security Checks",
-  "description": "Required Security Checks for Mapbox Repositories",
-  "iconName": "octicon shield-check",
-  "categories": ["dependency-management", "codereview", "utilities"]
-}
