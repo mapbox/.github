@@ -5,7 +5,13 @@ This is the default repository for [Mapbox](https://www.mapbox.com). It contains
 ## Contributing
 
 * Contributions to Mapbox Open Source projects are welcome and encouraged! Please see the Contribution Guidelines for the specific project in question for more information on contributing.
-* This repository does not accept PRs or Issues from outside the Mapbox organization.
+* For general contributor guidelines, please see the [Mapbox Contributing Guidelines](CONTRIBUTING.md).
+* For more information on Mapbox's Open Source community, please see the [Mapbox Governance Framework](GOVERNANCE.md).
+* For information on how to report security vulnerabilities, please see the [Mapbox Security Measures](SECURITY.md).
+* For information on our Code of Conduct, please see the [Mapbox Code of Conduct](CODE_OF_CONDUCT.md).
+
+> [!NOTE]
+> This repository does not accept PRs or Issues from outside the Mapbox organization.
 
 ## Support
 
