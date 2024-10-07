@@ -16,7 +16,7 @@ Before contributing to a Mapbox Open Source project, please ensure that you have
 6. You must enable two-factor authentication on your GitHub account.
 7. You should have a basic understanding of Git and GitHub.
 8. You should have a basic understanding of the project to which you are contributing.
-9. You should have a Mapbox account for testing purposes. You can sign up for a free account [here](https://account.mapbox.com/auth/signup/).
+9. You should have a Mapbox account for testing of proposed changes. You can sign up for a free account [here](https://account.mapbox.com/auth/signup/).
 
 ## Additional Resources
 
